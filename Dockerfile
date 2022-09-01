@@ -1,4 +1,4 @@
 FROM openjdk
 COPY target/*.war /
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/docker-SNAPSHOT.war"]
+ENTRYPOINT ["java","-jar","/dockerdemo-SNAPSHOT.war"]
