@@ -1,4 +1,4 @@
 FROM openjdk
-COPY target/*.war/
+ADD target/*.war/
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/multitaskdemo-SNAPSHOT.war"]
