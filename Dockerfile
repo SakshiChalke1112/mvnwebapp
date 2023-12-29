@@ -8,8 +8,8 @@ WORKDIR /app
 
 # Copy the JAR file into the container at /app
 
-COPY mvnwebapp.jar /app/mvnwebapp.jar
+COPY *.war /app/*.war
 
 # Specify the command to run your application
 
-CMD ["java", "-jar", "mvnwebapp.jar"]
+CMD ["java", "-jar", " *.war"]
